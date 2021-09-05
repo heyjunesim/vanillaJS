@@ -1,0 +1,52 @@
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.main-part:first-child {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main-part:first-child img {
+  width: 410px;
+  height: 300px;
+}
+
+.main-part:first-child span {
+  color: black;
+  position: absolute;
+  font-size: 22px;
+}
+
+.main-part:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  margin: 0px 30px;
+}
+
+.main-part:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+}
+
+.note {
+  font-size: 17px;
+}
+
+#avatar {
+  width: 220px;
+}

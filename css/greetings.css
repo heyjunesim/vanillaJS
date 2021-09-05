@@ -1,0 +1,31 @@
+#login-form {
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#login-form input:first-child {
+  font-family: "Gochi Hand", cursive;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  opacity: 100%;
+  padding: 5px;
+}
+
+#login-form input:last-child {
+  font-family: "Gochi Hand", cursive;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  margin-left: 5px;
+  color: white;
+}
+
+#greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: snow;
+}

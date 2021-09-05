@@ -1,0 +1,18 @@
+#todo-form input {
+  font-family: "Gochi Hand", cursive;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+#todo-list li:hover {
+  opacity: 50%;
+}
+
+#todo-list li button {
+  background-color: transparent;
+  border: none;
+}

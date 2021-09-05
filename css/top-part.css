@@ -1,0 +1,29 @@
+.top-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day {
+  margin-left: 30px;
+}
+#day {
+  margin-top: 30px;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#weather-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.weather span {
+  margin-top: 10px;
+  font-size: 15px;
+}

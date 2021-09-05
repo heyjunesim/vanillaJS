@@ -1,0 +1,8 @@
+#quote {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  font-size: 15px;
+}
