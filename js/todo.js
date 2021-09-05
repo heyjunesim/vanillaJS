@@ -48,14 +48,3 @@ function handleToDoSumbit(event) {
 toDoForm.addEventListener("submit", handleToDoSumbit);
 
 const savedToDos = localStorage.getItem(TODOS_KEY);
-
-if (savedToDos !== null) {
-  const parsedToDos = JSON.parse(savedToDos);
-  toDos = parsedToDos;
-  parsedToDos.forEach(paintToDo);
-  finished.classList.add(HIDDEN_CLASSNAME);
-  console.log("ww");
-} else {
-  finished.classList.remove(HIDDEN_CLASSNAME);
-  console.log("waw");
-}
